@@ -417,7 +417,7 @@ export default class NumericInput extends Component {
         <View style={inputContainerStyle}>
           <Button onPress={this.dec} style={leftButtonStyle}>
             <Icon
-              name="md-remove"
+              name="remove"
               size={fontSize}
               style={[
                 ...iconStyle,
@@ -437,7 +437,7 @@ export default class NumericInput extends Component {
           </TouchableOpacity>
           <Button onPress={this.inc} style={rightButtonStyle}>
             <Icon
-              name="md-add"
+              name="add"
               size={fontSize}
               style={[
                 ...iconStyle,
