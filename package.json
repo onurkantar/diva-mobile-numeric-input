@@ -31,11 +31,11 @@
   },
   "license": "MIT",
   "dependencies": {
-    "prop-types": "^15.6.1",
-    "react-native-pixel-perfect": "^1.0.1"
+    "prop-types": "^15.8.1",
+    "react-native-pixel-perfect": "^1.0.2"
   },
   "peerDependencies": {
-    "react-native-vector-icons": "^9.*"
+    "react-native-vector-icons": "^10.*"
   },
   "types": "./index.d.ts",
   "devDependencies": {}
