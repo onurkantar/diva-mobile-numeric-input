@@ -428,7 +428,11 @@ export default class NumericInput extends Component {
     else
       return (
         <View style={inputContainerStyle}>
-          <Button onPress={this.dec} style={leftButtonStyle}>
+          <Button
+            onPress={this.dec}
+            style={leftButtonStyle}
+            accessibilityLabel={"productQuantityDecrement"}
+          >
             <Icon
               name="remove"
               size={fontSize}
@@ -450,7 +454,11 @@ export default class NumericInput extends Component {
               {this.state.stringValue}
             </Text>
           </TouchableOpacity>
-          <Button onPress={this.inc} style={rightButtonStyle}>
+          <Button
+            onPress={this.inc}
+            style={rightButtonStyle}
+            accessibilityLabel={"productQuantityIncrement"}
+          >
             <Icon
               name="add"
               size={fontSize}
